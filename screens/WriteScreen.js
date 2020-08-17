@@ -16,7 +16,9 @@ export default class WriteScreen extends React.Component {
         />
         <TextInput placeholder="Story Title" style={styles.title} />
         <TextInput placeholder="Author" style={styles.author} />
-        <TextInput placeholder="Write your story" style={styles.storyText} />
+        <TextInput placeholder="Write your story" 
+        style={styles.storyText}
+        multiline={true} />
 
         <TouchableOpacity style={styles.submitButton}>
           <Text style={styles.buttonText}>Submit</Text>
